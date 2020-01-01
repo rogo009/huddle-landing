@@ -75,11 +75,45 @@ button {
 
 /*Media Query*/
 
-@media screen and (min-width: 600px) {
-.container-one,
-.container-two {
-	display: flex;
+@media screen and (min-width: 767px) {
 
+.background {
+	background: url("images/bg-desktop.svg");
+	background-color: hsl(257, 40%, 49%); 	
+	background-size: cover;
 }
 
+.flexbox {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	max-width: 15%;
+	margin: 35px;
+}
+
+.mockups {
+	margin: 0;
+}
+
+.container-one {
+	margin-left: 30px;
+	align-self: center;
+}
+
+.container-two {
+	margin: 0px;
+	flex-basis: 30%;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: 600;
+	margin-bottom: 1em;
+}
+
+p {
+	font-size: 1em;
+}
 
